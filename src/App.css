@@ -1,38 +1,45 @@
+/* make variables */
+:root {
+    --gray: #9c9c9c;
+    --grey: rgb(25, 28, 31);
+    --red: #C61E5B;
+    --darkGrey: #464D53;
+    --dark: #211e34b6;
+    --light: #D5BAC5;
+    --mixRed: linear-gradient(210.41deg, #D8055C 1.14%, #262224 100.75%);
+    --appColor: #000000;
+}
+
 .App {
-  text-align: center;
+    background-color: var(--appColor);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar {
+    display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.stroke-text {
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 2px white;
+    stroke: 2px black;
+    text-shadow: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn {
+    background-color: white;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: 4px solid transparent;
+    transition: 300ms all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover {
+    cursor: pointer;
 }
