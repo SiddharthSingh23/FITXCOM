@@ -58,10 +58,10 @@ export const Header = () => {
               About
             </Link>
           </li>
-          <li>
-
+          <li
+            onClick={()=> window.open("https://play.google.com/store/apps/details?id=com.fitxcom.fitxcom")}
+            >
               Download
-
           </li>
           <li>
             <Link
