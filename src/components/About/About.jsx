@@ -20,7 +20,7 @@ export const About = () => {
                     <div className="category">
                         <div className="about-img">
                             <img src={about.image} alt=""/>
-                            {about.image2}
+                            {/* <img src={about.image2} alt=""/> */}
                         </div>
                         <span>{about.name}</span>
                         <span>{about.detail}</span>

@@ -89,10 +89,6 @@
         text-align: center;
     }
 
-    .about-img {
-        /* flex-direction: column; */
-    }
-
     .about-header span {
         width: 55%;
     }
@@ -114,7 +110,7 @@
     }
 
     #about .about-categories .category {
-        align-items: stretch;
+        /* align-items: stretch; */
         align-self: center;
     }
 
@@ -130,13 +126,13 @@
 
     /* Image */
     .about-categories .category:nth-child(1) .about-img>img:nth-child(1) {
-        margin-bottom: 21px;
+        /* margin-bottom: 21px; */
         margin-right: 0px;
     }
 
     .about-categories .category span {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
 }

@@ -1,0 +1,53 @@
+/* Certificates */
+.Certificates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.certif-head {
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#carouselExampleIndicators {
+    width: 50%;
+}
+
+/* Carousel control prev icon */
+#carouselExampleIndicators .carousel-control-prev .carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Carousel control next icon */
+#carouselExampleIndicators .carousel-control-next .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+}
+
+#carouselExampleIndicators .carousel {
+    height: 60px;
+}
+
+@media (max-width:525px) {
+
+    .about-categories .category {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #carouselExampleIndicators {
+        width: 90%;
+    }
+
+    .certif-head {
+        font-size: 2rem;
+    }
+}
