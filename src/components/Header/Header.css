@@ -1,11 +1,15 @@
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin: 1rem 2rem;
 }
-.logo{
-    width: 3rem;
+.logo {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    left: 40px;
 }
+
 .header-menu{
     list-style: none;
     display: flex;
@@ -28,5 +32,11 @@
         flex-direction: column;
         background-color: var(--appColor);
         padding: 2rem;
+    }
+    .logo{
+        width: 4rem;
+        height: 4rem;
+        top: 10px;
+        left: 20px;
     }
 }

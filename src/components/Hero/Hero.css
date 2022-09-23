@@ -20,7 +20,7 @@
 }
 
 .the-best-ad {
-    margin-top: 4rem;
+    margin-top: 2rem;
     background-color: #393d42;
     border-radius: 4rem;
     width: fit-content;
@@ -120,12 +120,15 @@
     color: black;
 }
 
+.hero .right-h .heart-rate {
+    width: 160px !important;
+}
+
 .heart-rate {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     background-color: var(--dark);
-    width: 100px;
     padding: 1rem;
     align-items: flex-start;
     border-radius: 5px;
@@ -224,6 +227,7 @@
         left: 4rem;
         top: 1px;
         scale: 0.8;
+        display: none;
     }
 
     .calories {
@@ -232,6 +236,7 @@
         left: 13rem;
         scale: 0.9;
         width: 150px;
+        display: none;
     }
 
     .calories>img {

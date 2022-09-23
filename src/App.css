@@ -1,24 +1,8 @@
-/* make variables */
-:root {
-    --gray: #9c9c9c;
-    --grey: rgb(25, 28, 31);
-    --red: #C61E5B;
-    --darkGrey: #464D53;
-    --dark: #211e34b6;
-    --light: #D5BAC5;
-    --mixRed: linear-gradient(210.41deg, #D8055C 1.14%, #262224 100.75%);
-    --appColor: #000000;
-}
-
 .App {
     background-color: var(--appColor);
     display: flex;
     flex-direction: column;
     overflow: hidden;
-}
-
-::-webkit-scrollbar {
-    display: none;
 }
 
 .stroke-text {
@@ -43,3 +27,30 @@
 .btn:hover {
     cursor: pointer;
 }
+
+
+/* Extra Styling */
+
+/* #about div:nth-child(2) .info .about-img {
+    height: 272px;
+} */
+
+/* Info */
+/* #about div .info {
+    transform: translatex(0px) translatey(0px);
+} */
+
+/* Image */
+/* #about div img {
+    align-self: center;
+} */
+
+/* Info */
+/* #about div:nth-child(1) .info {
+    margin-bottom: 80px;
+} */
+
+/* Testimonials */
+/* #root .App .testimonials {
+    margin-top: 50px;
+} */

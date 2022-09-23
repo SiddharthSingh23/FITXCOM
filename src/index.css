@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Color Variables */
+:root {
+  --gray: #9c9c9c;
+  --grey: rgb(25, 28, 31);
+  --red: #C61E5B;
+  --darkGrey: #464D53;
+  --dark: #211e34b6;
+  --light: #D5BAC5;
+  --mixRed: linear-gradient(210.41deg, #D8055C 1.14%, #262224 100.75%);
+  --appColor: #000000;
+}
+
+/* No Scrollbar */
+::-webkit-scrollbar {
+  display: none;
 }

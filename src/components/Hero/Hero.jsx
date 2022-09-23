@@ -41,19 +41,19 @@ export const Hero = () => {
                 <div className="figures">
                     <div>
                         <span>
-                            <NumberCounter end={140} start={100} delay={4} preFix="+" />
+                            <NumberCounter end={5} start={0} delay={1} preFix="+" />
                         </span>
                         <span>expert coaches</span>
                     </div>
                     <div>
                         <span>
-                            <NumberCounter end={978} start={878} delay={4} preFix="+" />
+                            <NumberCounter end={120} start={50} delay={4} preFix="+" />
                         </span>
                         <span>Members joined</span>
                     </div>
                     <div>
                         <span>
-                            <NumberCounter end={50} delay={2} preFix="+" />
+                            <NumberCounter end={7} start={0} delay={1} preFix="+" />
                         </span>
                         <span>fitness programs</span>
                     </div>
