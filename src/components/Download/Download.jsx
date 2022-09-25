@@ -4,7 +4,7 @@ import tick from "../../assets/whiteTick.png"
 
 export default function Download() {
     return (
-        <div className="Download">
+        <div className="Download" id='download'>
             <div className="left">
 
                 <h1 className="heading">FITXCOM FITNESS TRACKING APP</h1>

@@ -9,7 +9,7 @@ import c6 from "../../assets/certificates/c6.jpg"
 
 export const Certificates = () => {
     return (
-        <div className='Certificates'>
+        <div className='Certificates' id='certificates'>
             
             <div className="certif-head">
                 <span>Certificates</span>

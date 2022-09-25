@@ -4,7 +4,7 @@ import { aboutData } from "../../data/aboutData";
 
 export default function About() {
     return (
-        <div className="About">
+        <div className="About" id='about'>
             <span className="about-head">ABOUT <span className="stroke-text">US</span></span>
             {aboutData.map((abt) => (
                 <div className="about-box">

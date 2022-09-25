@@ -7,7 +7,7 @@ import Bars from "../../assets/bars.png";
 export const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
   const [menuOpened, setMenuOpened] = useState(false);
-  
+
   return (
     <div className="header" id="header">
       <img src="/logo.png" alt="" className="logo" />
@@ -52,17 +52,13 @@ export const Header = () => {
           <li>
             <Link
               onClick={() => setMenuOpened(false)}
-              to="about"
+              // onClick={() => window.open("https://play.google.com/store/apps/details?id=com.fitxcom.fitxcom")}
+              to="download"
               spy={true}
               smooth={true}
             >
-              About
-            </Link>
-          </li>
-          <li
-            onClick={()=> window.open("https://play.google.com/store/apps/details?id=com.fitxcom.fitxcom")}
-            >
               Download
+            </Link>
           </li>
           <li>
             <Link
@@ -72,6 +68,26 @@ export const Header = () => {
               smooth={true}
             >
               Testimonials
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={() => setMenuOpened(false)}
+              to="certificates"
+              spy={true}
+              smooth={true}
+            >
+              Certficates
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={() => setMenuOpened(false)}
+              to="about"
+              spy={true}
+              smooth={true}
+            >
+              About Us
             </Link>
           </li>
         </ul>

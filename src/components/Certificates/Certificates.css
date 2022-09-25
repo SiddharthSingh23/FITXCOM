@@ -1,12 +1,11 @@
-/* Certificates */
 .Certificates {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 6rem;
-    background-color: rgb(243, 241, 236);
+    background-color: rgb(234, 237, 240);
     font-family:monospace;
+    padding: 4rem 0;
 }
 
 .certif-head {
@@ -20,12 +19,6 @@
 
 #carouselExampleIndicators {
     width: 50%;
-}
-
-#root .App .Certificates {
-    margin-top: 0px;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 /* Certif head */
