@@ -24,7 +24,7 @@
 .right-h {
     flex: 1;
     position: relative;
-    background: url("../../assets/main2.jpg");
+    background: url("../../assets/main2.png");
     background-size: cover;
 }
 
