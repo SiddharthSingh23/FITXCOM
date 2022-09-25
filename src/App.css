@@ -27,3 +27,32 @@
 .btn:hover {
     cursor: pointer;
 }
+
+
+/* Mobile */
+@media (max-width:525px) {
+
+    /* Image */
+    #download .right img {
+        transform: translatex(0px) translatey(0px);
+    }
+
+    /* Programs */
+    #programs {
+        margin-top: 0px;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    /* Testimonials */
+    #root .App .testimonials {
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    /* About */
+    #about {
+        padding-bottom: 69px;
+    }
+
+}

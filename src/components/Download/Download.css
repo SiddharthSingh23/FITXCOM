@@ -95,10 +95,25 @@
 
 }
 
-@media (max-width:525px) {
+@media (max-width:694px) {
+
+    /* Right */
+    .Download .right {
+        align-items: center;
+    }
+
+    /* Left */
+    .Download .left {
+        padding-left: 0px;
+    }
+
+}
+
+@media (max-width:620px) {
 
     .Download {
         grid-template-columns: 59.88fr;
     }
 
 }
+
