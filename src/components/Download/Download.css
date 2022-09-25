@@ -1,0 +1,91 @@
+.Download {
+    background-color: rgb(243, 241, 236);
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    justify-content: center;
+}
+
+.Download .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    gap: 3rem;
+}
+
+.Download .details {
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    color: #75625c;
+}
+
+.Download .detail img {
+    filter: brightness(0.34);
+    width: 25px;
+    margin-right: 20px;
+}
+
+.Download h1 {
+    font-weight: 600;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.Download span {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: gainsboro;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.dbtn {
+    display: inline-block;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.fbtn {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.Download .right {
+    display: flex;
+    justify-content: center;
+}
+
+.Download .right img {
+    width: 60%;
+}
+
+
+@media (max-width:767px) {
+
+    .Download .left {
+        padding-left: 50px;
+    }
+
+    .Download {
+        grid-template-columns: 60fr 40fr;
+    }
+
+
+    .Download .right img {
+        width: 257px;
+    }
+
+    .Download .left {
+        transform: scale(0.8);
+    }
+
+}
+
+@media (max-width:525px) {
+
+    .Download {
+        grid-template-columns: 59.88fr;
+    }
+
+}

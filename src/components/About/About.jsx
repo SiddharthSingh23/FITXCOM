@@ -1,33 +1,23 @@
-import React from "react";
-import "./About.css";
+import React from 'react'
+import './About.css'
 import { aboutData } from "../../data/aboutData";
 
-export const About = () => {
+export default function About() {
     return (
-        <div className="About" id='about'>
+        <div className="About">
+            <span className="about-head">ABOUT <span className="stroke-text">US</span></span>
+            {aboutData.map((abt) => (
+                <div className="about-box">
+                    <div className="a-left">
+                        <h1 className="name">{abt.name}</h1>
 
-            {/* about header */}
-            <div className="about-header">
-                <span>
-                    About
-                    <span className="stroke-text"> Us </span>
-                </span>
-            </div>
-
-            {/* about-categories */}
-            <div className="about-categories">
-                {aboutData.map((about) => (
-                    <div className="category">
-                        <div className="about-img">
-                            <img src={about.image} alt=""/>
-                            {/* <img src={about.image2} alt=""/> */}
-                        </div>
-                        <span>{about.name}</span>
-                        <span>{about.detail}</span>
-                        {about.abc}
+                        <p className="info">{abt.info}</p>
                     </div>
-                ))}
-            </div>
+
+                    <div className="a-right">
+                        <img src={abt.image} alt="" className="a-photo" />
+                    </div>
+                </div>))}
         </div>
-    );
-};
+    )
+}

@@ -27,30 +27,3 @@
 .btn:hover {
     cursor: pointer;
 }
-
-
-/* Extra Styling */
-
-/* #about div:nth-child(2) .info .about-img {
-    height: 272px;
-} */
-
-/* Info */
-/* #about div .info {
-    transform: translatex(0px) translatey(0px);
-} */
-
-/* Image */
-/* #about div img {
-    align-self: center;
-} */
-
-/* Info */
-/* #about div:nth-child(1) .info {
-    margin-bottom: 80px;
-} */
-
-/* Testimonials */
-/* #root .App .testimonials {
-    margin-top: 50px;
-} */

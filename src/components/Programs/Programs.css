@@ -4,6 +4,8 @@
     gap: 2rem;
     padding: 2rem;
     margin-top: 5rem;
+    background-color: rgb(12, 12, 17);
+    padding: 100px 30px 200px;
 }
 
 .programs-header {
@@ -14,7 +16,6 @@
     justify-content: center;
     color: white;
     text-transform: uppercase;
-    font-style: italic;
 }
 
 .prgoram-categories {
