@@ -5,6 +5,16 @@
     justify-content: center;
 }
 
+.dicon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.ficon {
+    width: 30px;
+    margin-right: 10px;
+}
+
 .Download .left {
     display: flex;
     flex-direction: column;

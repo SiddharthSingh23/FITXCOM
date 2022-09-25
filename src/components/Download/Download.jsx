@@ -1,6 +1,8 @@
 import React from 'react'
 import './Download.css'
 import tick from "../../assets/whiteTick.png"
+import playstore from "../../assets/playstore.png"
+import insta from "../../assets/insta.png"
 
 export default function Download() {
     return (
@@ -22,10 +24,20 @@ export default function Download() {
 
                 <div>
                     <span onClick={() => window.open("https://play.google.com/store/apps/details?id=com.fitxcom.fitxcom")}
-                    className="dbtn">DOWNLOAD APP</span>
+                    className="dbtn">
+
+                        <img className='dicon' src={playstore} alt="" />
+
+                        DOWNLOAD APP
+                    </span>
                     
                     <span onClick={() => window.open("https://www.instagram.com/fitxcommunity/")}
-                        className="fbtn">FOLLOW US</span>
+                        className="fbtn">
+                            
+                            <img className='ficon' src={insta} alt="" />
+
+                            FOLLOW US
+                        </span>
                 </div>
             </div>
 
