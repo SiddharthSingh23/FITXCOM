@@ -12,7 +12,7 @@ export const Certificates = () => {
         <div className='Certificates'>
             
             <div className="certif-head">
-                <span className='stroke-text'>Certificates</span>
+                <span>Certificates</span>
             </div>
 
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">

@@ -5,30 +5,48 @@
     justify-content: center;
     align-items: center;
     margin-top: 6rem;
+    background-color: rgb(243, 241, 236);
+    font-family:monospace;
 }
 
 .certif-head {
     font-weight: bold;
     font-size: 3rem;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0) !important;
     text-transform: uppercase;
 }
+
 
 #carouselExampleIndicators {
     width: 50%;
 }
 
-/* Carousel control prev icon */
-#carouselExampleIndicators .carousel-control-prev .carousel-control-prev-icon {
-    width: 30px;
-    height: 30px;
+#root .App .Certificates {
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-/* Carousel control next icon */
-#carouselExampleIndicators .carousel-control-next .carousel-control-next-icon {
-    width: 30px;
-    height: 30px;
+/* Certif head */
+.App .Certificates .certif-head {
+    margin-bottom: 40px;
+}
+
+#carouselExampleIndicators .carousel .carousel-control-next {
+    width: 60px;
+    height: 40px;
+    background-color: #000000;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+#carouselExampleIndicators .carousel .carousel-control-prev {
+    width: 60px;
+    height: 40px;
+    background-color: #000000;
+    border-radius: 50px;
+    margin-top: 10px
 }
 
 #carouselExampleIndicators .carousel {

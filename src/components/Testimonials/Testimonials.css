@@ -1,10 +1,19 @@
-.testimonials{
+.testimonials {
     display: flex;
     gap: 1rem;
     padding: 2rem 6rem;
     margin: 6rem 0;
 }
-.left-t{
+
+.testimonials .left-t {
+    padding-left: 42px;
+}
+
+.left-t span span {
+    color: var(--red) !important;
+}
+
+.left-t {
     display: flex;
     flex: 1.1;
     gap: 2rem;
@@ -12,26 +21,31 @@
     text-transform: uppercase;
     color: white;
 }
-.left-t>:nth-child(1){
+
+.left-t>:nth-child(1) {
     color: var(--red);
     font-weight: bold;
 }
+
 .left-t>:nth-child(2),
-.left-t>:nth-child(3){
+.left-t>:nth-child(3) {
     font-weight: bold;
     font-size: 3rem;
 }
-.left-t>:nth-child(4){
+
+.left-t>:nth-child(4) {
     text-transform: none;
     text-align: justify;
     letter-spacing: 1px;
     line-height: 40px;
 }
-.right-t{
-    flex:1;
+
+.right-t {
+    flex: 1;
     position: relative;
 }
-.right-t>img{
+
+.right-t>img {
     position: absolute;
     width: 17rem;
     height: 20rem;
@@ -39,66 +53,85 @@
     right: 6rem;
     top: 2rem;
 }
-.right-t>:nth-child(1)
-{
+
+.right-t>:nth-child(1) {
     position: absolute;
-    width: 17rem;height: 20rem;
+    width: 17rem;
+    height: 20rem;
     border: 2px solid var(--red);
     background-color: transparent;
     right: 7rem;
     top: 0.9rem;
 }
-.right-t>:nth-child(2)
-{
+
+.right-t>:nth-child(2) {
     position: absolute;
-    width: 17rem;height: 19rem;
+    width: 17rem;
+    height: 19rem;
     right: 5rem;
     top: 4rem;
-    background:var(--dark);
+    background: var(--dark);
 }
-.arrows{
+
+.arrows {
     display: flex;
     gap: 1rem;
     position: absolute;
     bottom: 1rem;
     left: 3rem;
 }
-.arrows>img{
+
+.arrows>img {
     width: 1.5rem;
     cursor: pointer
 }
 
 @media screen and (max-width: 767px) {
-    .testimonials{
+    .testimonials {
         flex-direction: column;
         padding-right: 4rem;
         padding-left: 4rem;
     }
-    .left-t>:nth-child(2)
-    ,.left-t>:nth-child(3){
+
+    .left-t>:nth-child(2),
+    .left-t>:nth-child(3) {
         font-size: 40px;
         padding-right: -6rem;
     }
-    .right-t{
+
+    .right-t {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 2rem;
     }
-    .right-t>div{
-        position:relative;
-        display:none;
+
+    .right-t>div {
+        position: relative;
+        display: none;
     }
-    .right-t>img{
+
+    .right-t>img {
         top: 0;
         right: 0;
-        position:relative;
+        position: relative;
         align-self: center;
     }
-    .right-t>:last-child{
+
+    .right-t>:last-child {
         display: block;
         bottom: 0;
         left: 0;
+    }
+
+    .testimonials {
+        padding-left:40px;
+         padding-right:40px;
+        margin-bottom: 0;
+    }
+
+    .testimonials .left-t {
+        padding-left: 0;
     }
 }

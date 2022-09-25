@@ -71,6 +71,9 @@
         grid-template-columns: 60fr 40fr;
     }
 
+    .dbtn {
+        margin-right: 10px;
+    }
 
     .Download .right img {
         width: 257px;

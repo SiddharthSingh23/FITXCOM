@@ -26,6 +26,9 @@
     width: 300px;
 }
 
+.a-left p {
+    text-align: justify;
+}
 
 .about-box .a-left {
     display: flex;
@@ -45,4 +48,64 @@
 .about-box .a-right {
     text-align: right;
     padding-right: 50px;
+}
+
+@media (max-width:767px) {
+
+    .about-box {
+        grid-template-columns: 1fr;
+    }
+
+    .about-box {
+        grid-template-rows: 90.51fr !important;
+    }
+
+    .a-right {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .a-left p {
+        font-size: 16px;
+    }
+
+    .a-left {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 493px;
+    }
+
+    .About {
+        align-items: center;
+    }
+
+}
+
+
+@media (max-width:525px) {
+
+    .About .about-box .a-right {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .About .about-box .a-right img {
+        width: 250px;
+    }
+
+    .About .about-box .a-left {
+        padding-right: 80px;
+        font-size: 14px;
+        padding-left: 80px;
+    }
+
+    .About {
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .App .About .about-head {
+        margin-bottom: 0px;
+    }
 }

@@ -21,11 +21,11 @@ export default function Download() {
                 </div>
 
                 <div>
-                    <span className="dbtn" 
-                        onClick={()=> window.open("https://play.google.com/store/apps/details?id=com.fitxcom.fitxcom")}
-                        >
-                            DOWNLOAD APP</span>
-                    <span className="fbtn">FOLLOW US</span>
+                    <span onClick={() => window.open("https://play.google.com/store/apps/details?id=com.fitxcom.fitxcom")}
+                    className="dbtn">DOWNLOAD APP</span>
+                    
+                    <span onClick={() => window.open("https://www.instagram.com/fitxcommunity/")}
+                        className="fbtn">FOLLOW US</span>
                 </div>
             </div>
 
