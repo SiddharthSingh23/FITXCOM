@@ -7,7 +7,7 @@ export const programsData = [
     heading: "FREE DIET PLANS / WORKOUT ROUTINES",
     details:"If you guys are interested to avail these free benefits of diet plans and workout routines for",
     features: [
-      "2 hours of excercises",
+      "2 hours of excercise",
       "Free consultaion to coaches",
       "Access to The Community",
     ],

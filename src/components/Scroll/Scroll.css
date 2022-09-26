@@ -1,0 +1,60 @@
+.orb {
+    /* width: 50px; */
+    height: 100px;
+    background: #999;
+    /* display: inline-block; */
+
+    float: left;
+    transition: all .2s ease-out;
+}
+
+.orb img {
+    height: 100px;
+}
+
+.scroll {
+    height: 200px;
+    width: 800px;
+    border: 2px solid #eee;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    margin: 200px auto;
+}
+
+.scroll-box {
+    display: block;
+    width: max-content;
+    margin: 70px 0;
+    position: absolute;
+    animation: scroll 20s linear infinite;
+}
+
+.scroll-box:hover {
+    animation-play-state: paused;
+}
+
+.sb {
+    float: left;
+    width: 50%;
+}
+
+@keyframes scroll {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+
+.scroll-box {
+    position: relative;
+    height: 77px;
+}
+
+#programs {
+    padding-bottom: 0px;
+}
