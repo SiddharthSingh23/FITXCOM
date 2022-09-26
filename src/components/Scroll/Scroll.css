@@ -1,9 +1,6 @@
 .orb {
-    /* width: 50px; */
     height: 100px;
     background: #999;
-    /* display: inline-block; */
-
     float: left;
     transition: all .2s ease-out;
 }
@@ -26,7 +23,8 @@
     display: block;
     width: max-content;
     margin: 70px 0;
-    position: absolute;
+    position: relative;
+    height: 77px;
     animation: scroll 20s linear infinite;
 }
 
@@ -52,12 +50,27 @@
     }
 }
 
-
-.scroll-box {
-    position: relative;
-    height: 77px;
-}
-
 #programs {
     padding-bottom: 0px;
+}
+
+@media (max-width:620px) {
+    .scroll-box {
+        animation: scroll 10s linear infinite;
+        margin-top:40px;
+        margin-bottom:40px;
+        height:63px;
+    }
+
+    .sb {
+        gap: 2rem;
+    }
+
+    .orb {
+        height: 60px;
+    }
+
+    .orb img {
+        height: 60px;
+    }
 }
