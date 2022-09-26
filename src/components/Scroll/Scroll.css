@@ -35,8 +35,11 @@
 }
 
 .sb {
+    display: flex;
+    gap: 5rem;
     float: left;
     width: 50%;
+    background: url("/public/bg.png");
 }
 
 @keyframes scroll {
