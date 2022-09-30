@@ -1,5 +1,5 @@
 .Download {
-    background-color: rgb(243, 241, 236);
+    background-color: #f5f4f0;
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
     justify-content: center;

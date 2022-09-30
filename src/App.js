@@ -13,8 +13,8 @@ function App() {
     <div className="App">
       <Header/>
       <Hero/>
-      <Programs/>
       <Scroll/>
+      <Programs/>
       <Download/>
       <Testimonials/>
       <Certificates/>

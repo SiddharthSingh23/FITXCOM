@@ -1,76 +1,58 @@
-.orb {
-    height: 100px;
-    background: #999;
-    float: left;
-    transition: all .2s ease-out;
-}
-
-.orb img {
-    height: 100px;
-}
-
-.scroll {
-    height: 200px;
-    width: 800px;
-    border: 2px solid #eee;
-    overflow: hidden;
-    box-sizing: border-box;
-    position: relative;
-    margin: 200px auto;
-}
-
-.scroll-box {
-    display: block;
-    width: max-content;
-    margin: 70px 0;
-    position: relative;
-    height: 77px;
-    animation: scroll 20s linear infinite;
-}
-
-.scroll-box:hover {
-    animation-play-state: paused;
-}
-
-.sb {
+.edit {
+    background-color: #f5f4f0;
     display: flex;
-    gap: 5rem;
-    float: left;
-    width: 50%;
-    background: url("/public/bg.png");
+    gap: 2rem;
 }
 
-@keyframes scroll {
-    0% {
-        left: 0;
-    }
-
-    100% {
-        left: -100%;
-    }
+.orb {
+    width: 150px;
+    padding: 30px;
+    position: relative;
+    text-align: center;
 }
+
+.App .orb img {
+    width: 120px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    cursor: pointer;
+}
+
+#root .App .Scroll {
+    margin-top: 80px;
+}
+
 
 #programs {
-    padding-bottom: 0px;
+    margin-top: 0px !important;
 }
 
-@media (max-width:620px) {
-    .scroll-box {
-        animation: scroll 10s linear infinite;
-        margin-top:40px;
-        margin-bottom:40px;
-        height:63px;
-    }
-
-    .sb {
-        gap: 2rem;
+@media (max-width:450px) {
+    #root .App .Scroll {
+        margin-top: 40px;
     }
 
     .orb {
-        height: 60px;
+        width: 120px;
+        padding: 15px;
     }
-
     .orb img {
-        height: 60px;
+        width: 80px;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
+}
+
+.orb .orb-text {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    transform: translateX(-50%);
+    width: 100px !important;
+    color: rgb(0, 0, 0);
+}
+
+.orb:hover .orb-text {
+    display: inline-block;
 }
