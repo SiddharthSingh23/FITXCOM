@@ -10,10 +10,10 @@
 }
 
 .certif-head {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 3rem;
     justify-content: center;
-    color: rgb(0, 0, 0) !important;
+    color: rgb(120, 111, 99) !important;
     text-transform: uppercase;
 }
 

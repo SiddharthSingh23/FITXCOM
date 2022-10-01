@@ -56,3 +56,12 @@
 .orb:hover .orb-text {
     display: inline-block;
 }
+
+.scroll--hint {
+    color: whitesmoke;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}

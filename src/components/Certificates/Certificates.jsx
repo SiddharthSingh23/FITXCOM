@@ -7,10 +7,13 @@ import c4 from "../../assets/certificates/c4.png"
 import c5 from "../../assets/certificates/c5.jpg"
 import c6 from "../../assets/certificates/c6.jpg"
 
+import './OtherPrograms.css'
+import { otherProgramsData } from '../../data/otherProgramsData'
+
 export const Certificates = () => {
     return (
         <div className='Certificates' id='certificates'>
-            
+
             <div className="certif-head">
                 <span>Certificates</span>
             </div>
@@ -55,6 +58,24 @@ export const Certificates = () => {
                     </a>
                 </div>
             </div>
+
+
+            {/* OTHER PROGRAMS FROM SCROLL COMPONENT */}
+            <span className="op--heading" id='otherprograms'>Other Programs</span>
+
+            <div className="OtherPrograms">
+                {otherProgramsData.map((op) => (
+                    <div className="op--box">
+                        <img src={op.img} alt="" />
+                        <ul className="op--text">
+                            <li>{op.title}</li>
+                            <li>{op.info}</li>
+                        </ul>
+                    </div>
+                ))}
+            </div>
+
+
         </div>
     )
 }

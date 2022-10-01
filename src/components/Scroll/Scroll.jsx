@@ -1,6 +1,7 @@
 import React from 'react'
 import './Scroll.css'
 import Marquee from "react-fast-marquee";
+import { Link } from "react-scroll";
 
 import i1 from '../../assets/scroll/immunity.png';
 import i2 from '../../assets/scroll/kidney.png';
@@ -19,80 +20,76 @@ import i14 from '../../assets/scroll/holistic.png';
 
 export default function Scroll() {
     return (
-        <div class="Scroll">
+        <Link
+            to="otherprograms"
+            spy={true}
+            smooth={true}
+        >
+            <div class="Scroll">
 
-            <Marquee speed={60} gradient={false} pauseOnHover={true} pauseOnClick={true}
-                className='edit'>
-                <div className="orb">
-                    <img src={i1} alt="" />
-                    <span className='orb-text'>IMMUNITY</span>
-                </div>
+                <span className="scroll--hint">Click To Know More. . .</span>
 
-                <div className="orb">
-                    <img src={i2} alt="" />
-                    <span className='orb-text'>KIDNEY</span>
-                </div>
+                <Marquee speed={60} gradient={false} pauseOnHover={true}
+                    className='edit'>
+                    <div className="orb">
+                        <img src={i1} alt="" />
+                        <span className='orb-text'>IMMUNITY</span>
+                    </div>
 
-                <div className="orb">
-                    <img src={i3} alt="" />
-                    <span className='orb-text'>BALANCED</span>
-                </div>
+                    <div className="orb">
+                        <img src={i2} alt="" />
+                        <span className='orb-text'>KIDNEY</span>
+                    </div>
 
-                <div className="orb">
-                    <img src={i4} alt="" />
-                    <span className='orb-text'>HORMONAL</span>
-                </div>
+                    <div className="orb">
+                        <img src={i3} alt="" />
+                        <span className='orb-text'>BALANCED</span>
+                    </div>
 
-                <div className="orb">
-                    <img src={i5} alt="" />
-                    <span className='orb-text'>GUT</span>
-                </div>
+                    <div className="orb">
+                        <img src={i4} alt="" />
+                        <span className='orb-text'>HORMONAL</span>
+                    </div>
 
-                <div className="orb">
-                    <img src={i7} alt="" />
-                    <span className='orb-text'>DIABETES</span>
-                </div>
+                    <div className="orb">
+                        <img src={i5} alt="" />
+                        <span className='orb-text'>GUT</span>
+                    </div>
 
-                <div className="orb">
-                    <img src={i8} alt="" />
-                    <span className='orb-text'>REJUVINATION</span>
-                </div>
+                    <div className="orb">
+                        <img src={i7} alt="" />
+                        <span className='orb-text'>DIABETES</span>
+                    </div>
 
-                <div className="orb">
-                    <img src={i9} alt="" />
-                    <span className='orb-text'>WELLNESS</span>
-                </div>
+                    <div className="orb">
+                        <img src={i8} alt="" />
+                        <span className='orb-text'>REJUVINATION</span>
+                    </div>
 
-                <div className="orb">
-                    <img src={i10} alt="" />
-                    <span className='orb-text'>THYROID</span>
-                </div>
+                    <div className="orb">
+                        <img src={i9} alt="" />
+                        <span className='orb-text'>WELLNESS</span>
+                    </div>
 
-                <div className="orb">
-                    <img src={i11} alt="" />
-                    <span className='orb-text'>SPORTS</span>
-                </div>
+                    <div className="orb">
+                        <img src={i10} alt="" />
+                        <span className='orb-text'>THYROID</span>
+                    </div>
 
-                <div className="orb">
-                    <img src={i14} alt="" />
-                    <span className='orb-text'>HOLISTIC</span>
-                </div>
+                    <div className="orb">
+                        <img src={i11} alt="" />
+                        <span className='orb-text'>SPORTS</span>
+                    </div>
 
-                {/* <img src={i2} alt="" className="orb" />
-                <img src={i3} alt="" className="orb" />
-                <img src={i4} alt="" className="orb" />
-                <img src={i5} alt="" className="orb" /> */}
-                {/* <img src={i6} alt="" className="orb" /> */}
-                {/* <img src={i7} alt="" className="orb" />
-                <img src={i8} alt="" className="orb" />
-                <img src={i9} alt="" className="orb" />
-                <img src={i10} alt="" className="orb" />
-                <img src={i11} alt="" className="orb" /> */}
-                {/* <img src={i12} alt="" className="orb" /> */}
-                {/* <img src={i13} alt="" className="orb" /> */}
-                {/* <img src={i14} alt="" className="orb" /> */}
-            </Marquee>
+                    <div className="orb">
+                        <img src={i14} alt="" />
+                        <span className='orb-text'>HOLISTIC</span>
+                    </div>
 
-        </div>
+                </Marquee>
+
+            </div>
+
+        </Link>
     )
 }
